@@ -23,6 +23,14 @@ window.onload = function () {
             reprodueix(audio.arxiu);
             alert(audio.titol);                
           })
+            
+            button.addEventListener("touchstart", function () {
+            button.style.transform = "scale(0.5)";
+          });
+      
+          button.addEventListener("touchend", function () {
+            button.style.transform = "scale(1)";
+          });
 
           container.style.display = "flex"; // Apply flexbox layout to the container
           container.style.flexDirection = "column"; // Stack elements vertically
@@ -33,10 +41,6 @@ window.onload = function () {
         });
         
     });
-
-    
-    
-
 
     function reprodueix(arx) {
         au.src = "Audios/" + arx;
