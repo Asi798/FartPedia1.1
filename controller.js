@@ -21,6 +21,7 @@ window.onload = function () {
           }
           button.addEventListener("click",function () {
             reprodueix(audio.arxiu);
+            alert(audio.titol);                
           })
 
           container.style.display = "flex"; // Apply flexbox layout to the container
