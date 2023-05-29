@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+
+header {
+    text-align: center;
+    margin: auto;
+    border-bottom: solid 5px black;
+  }
+
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #buttons > div {
+    flex-basis: 48%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Adjust the spacing between rows */
+  }
+  
+  #buttons > div img {
+    width: 100%;
+  }
+  
+  #buttons > div span {
+    text-align: center;
+  }
+
+img {
+    margin: 10px 5px;
+    max-width: 150px;
+    max-height: 150px;
+  }
