@@ -14,10 +14,10 @@ window.onload = function () {
         
           if (audio.codi === "Carlo") {
             button.src = "Carlo.png";
-            caption.textContent = "Carlo"; // Caption text for Carlo image
+            caption.textContent = audio.titol;
           } else {
             button.src = "Asier.png";
-            caption.textContent = "Asier"; // Caption text for Asier image
+            caption.textContent = audio.titol;
           }
           button.addEventListener("click",function () {
             reprodueix(audio.arxiu);
