@@ -7,10 +7,22 @@
     vertical-align: baseline;
   }
 
+#buttons {
+  background-image: url('fondo.png');
+  background-size: 125px;
+  background-repeat: repeat;
+  } 
+
 header {
     text-align: center;
     margin: auto;
-    border-bottom: solid 5px black;
+    border-bottom: solid 5px rgb(251, 124, 105);
+    background-color: rgb(55, 56, 57);
+  }
+
+  header img {
+    width: 100px;
+    height: 90px;
   }
 
   #buttons {
@@ -30,6 +42,8 @@ header {
   
   #buttons > div span {
     text-align: center;
+    font-weight: bold;
+    background-color: rgb(251, 124, 105,0.2);
   }
 
 img {

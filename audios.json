@@ -1,26 +1,86 @@
 [{
     "codi": "Carlo",
     "titol": "Re Sostenido",
-    "arxiu": "ReSostenido.ogg"
+    "arxiu": "ReSostenido.mp3"
   },
   {
     "codi": "Asier",
     "titol": "Nightz",
-    "arxiu": "Nightz.ogg"
+    "arxiu": "Nightz.mp3"
   },
   {
     "codi": "Asier",
     "titol": "Regurgitona",
-    "arxiu": "Regugitona.ogg"
+    "arxiu": "Regugitona.mp3"
   },
   {
     "codi": "Asier",
     "titol": "Trompetilla",
-    "arxiu": "Trompetilla.ogg"
+    "arxiu": "Trompetilla.mp3"
   },
   {
     "codi": "Carlo",
     "titol": "One Last Dance",
-    "arxiu": "OneLastDance.ogg"
+    "arxiu": "OneLastDance.mp3"
+  },
+  {
+    "codi": "Carlo",
+    "titol": "6:30am",
+    "arxiu": "630am.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "9/11",
+    "arxiu": "911.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "Cuerpo a tierra",
+    "arxiu": "CuerpoATierra.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "Drift",
+    "arxiu": "Drift.mp3"
+  },
+  {
+    "codi": "Carlo",
+    "titol": "El llanto",
+    "arxiu": "ElLlanto.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "La crucifixión",
+    "arxiu": "LaCrucifixion.mp3"
+  },
+  {
+    "codi": "Carlo",
+    "titol": "Miau",
+    "arxiu": "Miau.mp3"
+  },
+  {
+    "codi": "Carlo",
+    "titol": "Middle of the night",
+    "arxiu": "MiddleOfTheNight.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "McFlurry",
+    "arxiu": "McFlurry.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "Bullet",
+    "arxiu": "Bullet.mp3"
+  },
+  {
+    "codi": "Carlo",
+    "titol": "Angry remolón",
+    "arxiu": "RemolónEnfadado.mp3"
+  },
+  {
+    "codi": "Asier",
+    "titol": "Spray pimienta",
+    "arxiu": "SprayPimienta.mp3"
   }
 ]

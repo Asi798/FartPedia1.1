@@ -5,7 +5,6 @@ window.onload = function () {
     readTextFile("audios.json", function (text) {
         audios = JSON.parse(text);
         let buttons = document.getElementById("buttons");
-        console.log(audios);
 
         audios.forEach(function (audio, i) {
           let container = document.createElement("div"); // Container element
@@ -14,22 +13,28 @@ window.onload = function () {
         
           if (audio.codi === "Carlo") {
             button.src = "Carlo.png";
-            caption.textContent = audio.titol;
           } else {
             button.src = "Asier.png";
-            caption.textContent = audio.titol;
           }
+          caption.textContent = audio.titol;
           button.addEventListener("click",function () {
             reprodueix(audio.arxiu);
-            alert(audio.titol);                
           })
-            
-            button.addEventListener("touchstart", function () {
-            button.style.transform = "scale(0.5)";
+
+          button.addEventListener("touchstart", function () {
+            if (audio.codi === "Carlo") {
+              button.src = "clickC.png";
+            } else {
+              button.src = "clickA.png";
+            }
           });
       
           button.addEventListener("touchend", function () {
-            button.style.transform = "scale(1)";
+            if (audio.codi === "Carlo") {
+              button.src = "Carlo.png";
+            } else {
+              button.src = "Asier.png";
+            }
           });
 
           container.style.display = "flex"; // Apply flexbox layout to the container
@@ -41,6 +46,10 @@ window.onload = function () {
         });
         
     });
+
+    
+    
+
 
     function reprodueix(arx) {
         au.src = "Audios/" + arx;
